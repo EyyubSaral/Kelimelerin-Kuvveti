@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Word({ data }) {
-  console.log(data);
+
   const {
     word,
     pronunciation,

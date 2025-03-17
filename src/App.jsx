@@ -35,7 +35,7 @@ export default function App() {
 
       <Word data={wordData}  />
 
-      <NavButtons data={{ ...navData, position: "top" }} />
+      <NavButtons data={{ ...navData, position: "bottom" }} />
 
       <Footer />
     </div>

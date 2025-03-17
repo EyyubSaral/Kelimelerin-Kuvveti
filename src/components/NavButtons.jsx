@@ -2,7 +2,8 @@ import React from "react";
 import Button from "./Button";
 
 export default function NavButtons({ data }) {
-  const { wordsDataArray, currentWord, setCurrentWord, position } = data.currentWord;
+  const { wordsDataArray, currentWord, setCurrentWord, position } = data;
+  console.log(data)
 
   function changeWord(currentIndex, direction, position) {
     let nextIndex;
